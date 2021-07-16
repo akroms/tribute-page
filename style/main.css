@@ -26,10 +26,11 @@
   .container {
     margin:0 auto;
     text-align:center;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   
   #tribute-info {
- 
     font-size:18px;
     margin: 0 auto;
     margin-top:14px;
@@ -50,7 +51,7 @@
     color:#ff1;
   }
 
-/**/ 
+/* Responsive design */ 
 
 @media (max-width:1500px) {
   .container {
@@ -59,3 +60,12 @@
 
   }
 }
+
+@media (max-width:400px) {
+  .container {
+    width: 350px;
+    padding:15px;
+
+  }
+}
+
