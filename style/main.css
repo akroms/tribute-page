@@ -1,0 +1,61 @@
+/*
+
+    Hi, Welcome to backbone of web site, which is 
+    code if you are reading this.
+
+    My name is Akrom Abdulvokhidov, now I am 18
+    from UZB.
+    Build date: 16.07.2021
+
+*/
+ 
+  #image {
+    display:block;
+    margin:auto;
+    max-width:100%;
+    height: auto;
+  }
+  
+  body {
+    background-color:#000;
+    color:#fff;
+  }
+  p {
+    text-align:center;
+  }
+  .container {
+    margin:0 auto;
+    text-align:center;
+  }
+  
+  #tribute-info {
+ 
+    font-size:18px;
+    margin: 0 auto;
+    margin-top:14px;
+    margin-bottom:10px;
+  }
+  
+  #img-caption {
+    margin-top:10px;
+    margin-bottom:5px;
+  }
+  
+  #tribute-link {
+    text-decoration:none;
+    color:#ff6;
+  }
+  
+  #tribute-link:hover {
+    color:#ff1;
+  }
+
+/**/ 
+
+@media (max-width:1500px) {
+  .container {
+    width: 500px;
+    padding:20px;
+
+  }
+}
